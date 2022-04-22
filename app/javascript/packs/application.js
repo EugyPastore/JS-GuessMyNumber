@@ -15,7 +15,6 @@ ActiveStorage.start();
 import "controllers";
 import "bootstrap";
 
-// /////////BUG
 ("use strict");
 // define secret number once we start application! to the secret number we will compare all the guesses. secretNumber - is state variable.
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
