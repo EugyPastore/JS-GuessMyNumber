@@ -40,7 +40,7 @@ document.querySelector(".check").addEventListener("click", function () {
     //  document.querySelector('.message').textContent = '🌟 Correct number!';
     displayMessage("🌟 Correct number!");
     document.querySelector(".score").textContent = score;
-    document.querySelector("body").style.backgroundColor = "green";
+    document.querySelector("body").style.backgroundColor = "#D4463D";
     document.querySelector(".number").style.width = "30rem";
     document.querySelector(".number").textContent = secretNumber;
 
